@@ -1,0 +1,108 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+/* NAVBAR */
+.navbar {
+    display:flex; 
+    position:sticky; 
+    justify-content:space-between; 
+    align-items:center; 
+    margin-bottom: 20px;
+    background-color:#FFFFFF;
+    color:black; 
+    /*filter: drop-shadow(0 0 0.75rem black);*/
+}
+
+.navbar-left, .navbar-middle {
+    display: flex;
+}
+
+.navbar-right{
+    display: flex;
+    align-self:flex-end;
+}
+
+.navbar input {
+    background-color: #fff;
+    border: none;
+    padding: 10px 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-right: 10px;
+}
+
+.navbar input:hover {
+    background-color: #f1f1f1;
+}
+
+.navbar-middle {
+    margin: 0 20px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+
+/* Accueil */
+
+article{
+    display : inline-block;
+    align-content: center;
+    width: 33%;
+}
+
+.boite_articles, .boite_option{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.buttonHorrible{
+    transition: ease-in-out 0.25s;
+}
+/* Article */
+
+.boite_article{
+    width: 33%;
+    display: inline-block;
+}
+
+.article_general{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article_prix{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Option */
+.option{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*-----SCROLLBAR-----*/
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px black;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    background: #6d6c6c;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #333333;
+}
